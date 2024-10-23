@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+  }
+  
+  .FC {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+  }
+  
+  .wrapper {
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.358);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .brand {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .singkatan {
+    font-size: 35px;
+    font-weight:300;
+    color: #fef3c7;
+    padding-top: 10px;
+    margin-bottom: -5px;
+  }
+  
+  .kepanjangan {
+    margin-top: -2px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    color: #fef3c7;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigation > li {
+    list-style-type: none;
+    padding: 10px;
+    padding-right: 50px;
+    color: #fef3c7;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Kanit" sans-serif;
+  }
+  
+  .navigation > li > a {
+    color: #fef3c7;
+    text-decoration: none;
+  }
+  
+  .navigation > li > a:hover {
+    color: #d97706;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .navigation > li > a1 {
+    color: #d97706;
+  }
+
+  .active{
+    color: #d97706;
+  }
+.eventbg{
+    background-color: #572C11;
+    height: 360vh;
+  }
+  .boxjudul{
+    color: #fef3c7;
+    margin-top: 100px;
+    margin-left: auto;
+    width: 600px;
+    height: 280px;
+    position: absolute;
+  }
+  .judul{
+    font-size: 35px;
+    margin-top: -250px;
+    margin-left: 90px;
+    color: #92400E;
+    position: relative;
+  }
+.eventbg img{
+    width: 919px;
+    height: 360px;
+    border-radius: 5px;
+    margin-top: 70px ;
+    margin-left: 600px;  
+}
+.judul2{
+    font-size: 20px;
+    color:#92400E;
+    margin-left: 90px;
+    position: relative;
+  }
+
+.boxjudul2{
+    color: #E7963A;
+    margin-top: 161px;
+    margin-left: 690px; 
+    width: 829px;
+    height: 130px;
+    position: absolute;
+  }
+.judul3{
+  margin-top: 180px;
+  margin-left: 750px;
+  font-size: 28px;
+  width: 40%;
+  color: #fef3c7dd;
+  position: relative;
+} 
+.first{
+  margin-top: -350px;
+  margin-left: 80px;
+}
+
+.event1{
+  color: #d97706;
+  font-size: 32px;
+}
+
+.name1{
+  color: #fef3c7;
+  font-size: 28px;
+}
+
+.email1{
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.second{
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.event2{
+  color: #d97706;
+  font-size: 32px;
+}
+
+.name2{
+  color: #fef3c7;
+  font-size: 28px;
+}
+
+.email2{
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.second{
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+.event2{
+  color: #d97706;
+  font-size: 32px;
+}
+
+.name2{
+  color: #fef3c7;
+  font-size: 28px;
+}
+
+.email2{
+  color: #ffffff;
+  font-size: 24px;
+}
+.third{
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+.event3{
+  color: #d97706;
+  font-size: 32px;
+}
+
+.name3{
+  color: #fef3c7;
+  font-size: 28px;
+}
+
+.email3{
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.contactimg img{
+  width: 40%;
+  margin-top: 100px;
+  margin-left: 850px;
+  position: relative;
+}
+
+.info{
+  font-size: 20px;
+  color: #fef3c7;
+  margin-left: 855px;
+  margin-top: -150px;
+}
+
+.website{
+  font-size: 20px;
+  color: #d97706;
+  margin-left: 855px;
+}
+.whybatas{
+  color: #fef3c7;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.gambarpeta iframe{
+  height: 500px;
+  width: 1200px;
+  margin-top: 200px;
+  margin-left: 160px;
+}
+.formsubm{
+  color: #E7963A;
+  font-size: 36px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.form-container {
+  max-width: 600px;
+  margin-top: 30px;
+  margin-left: 100px;
+  color: #ffffffda;
+  font-size: 18px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group ::placeholder{
+  font-size: 16px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fEF3C7;
+  border-radius: 4px;
+}
+
+.prefer .form-label{
+  font-size: 24px;
+}
+
+
+.form-button {
+  padding: 10px 30px;
+  background-color: #fEF3C7;
+  color: #572C11;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+.{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #fef3c7;
+  padding: 50px 0;
+  margin-left: -100px;
+}
+
+.footer-col a{
+  width: 25%;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 20px;
+}
+
+.discover{
+  font-size: 30px;
+}
+.discover a{
+  list-style-type: none;
+  text-decoration: none;;
+}
+
+.faq{
+  font-size: 30px;
+}
+
+.footerjudul{
+  font-size: 40px;
+  font-weight: 300px;
+}
+
+.kep{
+  font-size: 24px;
+}
+
+.sosmed{
+  font-size: 30px;
+}
+
+.sociallink img{
+  width: 35px;
+}
+
+.sociallink{
+  gap: 30px;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .FC {
+    height: auto;
+    position: relative;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    background-color: #572C11;
+  }
+
+  .brand {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .singkatan {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  .kepanjangan {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .navigation {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 10px
+  }
+
+  .navigation > li {
+    padding: 15px;
+    
+  }
+
+  
+    
+      .gambarpeta iframe {
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+    
+      .row {
+          flex-wrap: wrap;
+        }
+      
+        .footer-col {
+          width: 100%;
+          margin-bottom: 30px;
+          text-align: center;
+          margin-left: 100px;
+        }
+        
+          .footerjudul {
+          font-size: 25px;
+          width: 100%;
+          margin-bottom: 30px;
+          text-align: center;
+          margin-left: 100px;
+          }
+        
+          .kep {
+            font-size: 14px;
+          }
+        
+          .sociallink {
+            justify-content: center;
+            margin-top: 20px;
+          }
+        
+          .sociallink img {
+            width: 20px;
+            margin: 0 10px;
+          }
+   
+      
+}
